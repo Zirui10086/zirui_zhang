@@ -361,6 +361,13 @@ html, body {
   }
 }
 
+@media (max-width: 800px) {
+  .image-container {
+      width: 45%; /* 在视窗宽度较小的情况下调整宽度 */
+      margin: 2.5%; /* 调整边距以保持间隔 */
+  }
+}
+
 
 .hover-effect {
   transition: transform 0.2s, filter 0.2s; /* Smooth transition for the transform and filter properties */
