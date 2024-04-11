@@ -362,4 +362,13 @@ html, body {
 }
 
 
+.hover-effect {
+  transition: transform 0.2s, filter 0.2s; /* Smooth transition for the transform and filter properties */
+  cursor: pointer; /* Change cursor to indicate interactive element */
+}
+
+.hover-effect:hover {
+  transform: translateX(-10px) translateY(-10px); /* Move the image up on hover */
+  filter: brightness(1.2); /* Increase brightness to enhance color */
+}
 
